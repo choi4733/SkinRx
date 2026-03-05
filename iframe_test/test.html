@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        li{list-style: none;}
+        a{text-decoration: none;}
+
+        #wrap{
+            width: 1000px; margin: 0 auto;
+            background-color: #70ff2e;
+        }
+        ul{
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li{
+            width: 20%;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li:nth-child(1){
+            background-color: #ff8b8b;
+        }
+        li:nth-child(2){
+            background-color: #ceff1d;
+        }
+        li:nth-child(3){
+            background-color: #44ff92;
+        }
+        li:nth-child(4){
+            background-color: #41b3ff;
+        }
+        .iframe{
+            height: 600px;
+            background-color: #05071a;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h1>iframe 연습</h1>
+    <div id="wrap">
+      <ul>
+        <li><a href="red.html" target="color">menu01</a></li>
+        <li><a href="yellow.html" target="color">menu02</a></li>
+        <li><a href="green.html" target="color">menu03</a></li>
+        <li><a href="sky.html" target="color">menu04</a></li>
+        <li><a href="blue.html" target="color">menu05</a></li>
+      </ul>
+      <div class="iframe">
+        <iframe src="" frameborder="1" width="1000" height="600" name="color"></iframe>
+      </div>
+  </body>
+</html>

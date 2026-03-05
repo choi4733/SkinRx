@@ -1,0 +1,16 @@
+.rolling_banner .swiper-button-next,
+.rolling_banner .swiper-button-prev {
+  color: hsl(0, 0%, 100%);
+}
+.swiper-pagination-bullet {
+  background-color: #ff6a6a;
+  opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+  background-color: rgb(104, 0, 0);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: aqua;
+}
